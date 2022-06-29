@@ -19,16 +19,24 @@
             Anti Flammable Cabinet it has a Front Panel LED Indicator.
           </p>
           <div class="flex justify-center">
-            <button
-              class="inline-flex text-white bg-[#0095D9] border-0 py-2 px-6 focus:outline-none hover:bg-[#ED1C24] rounded text-lg"
+            <a
+              href="https://idealups.com.bd/product/ideal-5312cw-1250va720w-line-interactive-ups"
             >
-              Learn More
-            </button>
-            <button
-              class="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg"
+              <button
+                class="inline-flex text-white bg-[#0095D9] border-0 py-2 px-6 focus:outline-none hover:bg-[#ED1C24] rounded text-lg"
+              >
+                Learn More
+              </button>
+            </a>
+            <a
+              href="https://www.comcitybd.com/product/ideal-5312cw-1250va720w-line-interactive-ups"
             >
-              See Pricing
-            </button>
+              <button
+                class="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg"
+              >
+                See Pricing
+              </button>
+            </a>
           </div>
         </div>
         <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">

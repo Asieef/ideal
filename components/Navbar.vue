@@ -28,6 +28,12 @@
             class="mr-5 hover:text-white hover:bg-[#0095D9] px-4 py-2"
             >Contact Us</NuxtLink
           >
+
+          <NuxtLink
+            to="/download"
+            class="mr-5 hover:text-white hover:bg-[#0095D9] px-4 py-2"
+            >Download</NuxtLink
+          >
         </nav>
         <a href="https://www.comcitybd.com/brand/Ideal%20UPS">
           <button
