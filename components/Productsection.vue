@@ -5,7 +5,7 @@
     </div>
     <div class="container mx-auto">
       <div
-        class="grid lg:grid-cols-5 grid-cols-1 gap-6 px-6 py-12 justify-items-center"
+        class="grid lg:grid-cols-5 grid-cols-1 gap-6 px-6 py-12"
         v-if="products != null"
       >
         <div class="" v-for="product in products" :key="product.slug">
@@ -21,22 +21,24 @@
             </p>
           </router-link>
 
-          <button
-            class="inline-flex items-center hover:text-white hover:bg-[#0095D9] border py-1 px-3 focus:outline-none text-base mt-4 md:mt-0"
-          >
-            Learn More
-            <svg
-              fill="none"
-              stroke="currentColor"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-width="2"
-              class="w-4 h-4 ml-1"
-              viewBox="0 0 24 24"
+          <router-link :to="`/product/${product.slug}`">
+            <button
+              class="inline-flex items-center hover:text-white hover:bg-[#0095D9] border py-1 px-3 focus:outline-none text-base mt-4 md:mt-0"
             >
-              <path d="M5 12h14M12 5l7 7-7 7"></path>
-            </svg>
-          </button>
+              Learn More
+              <svg
+                fill="none"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                class="w-4 h-4 ml-1"
+                viewBox="0 0 24 24"
+              >
+                <path d="M5 12h14M12 5l7 7-7 7"></path>
+              </svg>
+            </button>
+          </router-link>
         </div>
       </div>
     </div>

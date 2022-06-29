@@ -79,7 +79,7 @@ export default {
 
   mounted() {
     this.getProduct();
-    console.log(this.slug);
+    console.log(this.$route);
   },
 
   methods: {

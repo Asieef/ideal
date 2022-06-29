@@ -1,6 +1,6 @@
 <template>
-  <div>
-    <div class="font-display">
+  <div class="border-t">
+    <div class="font-display container mx-auto">
       <div class="mt-14 mx-10">
         <div
           class="grid lg:grid-cols-4 grid-cols-1 gap-6 px-6 container mx-auto"

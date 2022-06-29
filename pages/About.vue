@@ -1,5 +1,5 @@
 <template>
-  <div class="font-display">
+  <div class="font-display border-t">
     <div class="container mx-auto">
       <section class="text-gray-600 body-font mx-10">
         <div

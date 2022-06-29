@@ -1,5 +1,5 @@
 <template>
-  <div class="font-display">
+  <div class="font-display border-t">
     <Sidemenu class="hidemobile" />
     <div class="mx-10">
       <section class="text-gray-600 body-font relative">
