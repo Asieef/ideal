@@ -1,7 +1,9 @@
 <template>
   <div>
     <Navbar />
-    <Breadcrump v-if="checkRoute" />
+    <div class="hidden lg:block">
+      <Breadcrump v-if="checkRoute" />
+    </div>
     <Nuxt />
     <Footer />
   </div>
