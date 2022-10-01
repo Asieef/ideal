@@ -16,7 +16,7 @@
               <div
                 class="h-full flex items-center border-gray-200 border p-4 rounded-lg"
               >
-                <a href="/IDEAL-5112CW.pdf">
+                <a href="/5106C.pdf">
                   <img
                     alt="team"
                     class="w-12 h-12 bg-gray-100 object-cover object-center flex-shrink-0 mr-4"
