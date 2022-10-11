@@ -111,6 +111,24 @@
                 </div>
               </div>
             </div>
+
+            <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+              <div
+                class="h-full flex items-center border-gray-200 border p-4 rounded-lg"
+              >
+                <a href="/9200LB.pdf">
+                  <img
+                    alt="team"
+                    class="w-12 h-12 bg-gray-100 object-cover object-center flex-shrink-0 mr-4"
+                    src="/pdf.png"
+                  />
+                </a>
+                <div class="flex-grow">
+                  <h2 class="text-gray-900 title-font font-medium">9200LB</h2>
+                  <p class="text-gray-500">9200LB Series 1KVA-3KVA</p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>
